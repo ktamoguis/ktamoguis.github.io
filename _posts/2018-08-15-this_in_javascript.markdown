@@ -14,7 +14,7 @@ Expounding further..
 
 >  A method is a property of an object that points to a function
 
-So, the way I understand the above is and paraphrasing the above:
+So, the way I understand this and paraphrasing the above:
 
 
 **If an object has a function as one of its properties, and 'this' is inside that function, then 'this' refers to the object.**
