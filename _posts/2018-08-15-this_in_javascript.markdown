@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "'This' in JavaScript"
-date:       2018-08-15 14:25:53 +0000
+date:       2018-08-15 10:25:53 -0400
 permalink:  this_in_javascript
 ---
 
@@ -17,7 +17,7 @@ Expounding further..
 So, the way I understand the above is and paraphrasing the above:
 
 
-**if an object has a function as one of its properties, and 'this' is inside that function, then 'this' refers to the object.**
+**If an object has a function as one of its properties, and 'this' is inside that function, then 'this' refers to the object.**
 
 
 Example:
