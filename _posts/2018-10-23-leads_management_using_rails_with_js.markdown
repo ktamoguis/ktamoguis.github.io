@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Leads Management using Rails with JS"
-date:       2018-10-23 21:39:23 +0000
+date:       2018-10-23 17:39:23 -0400
 permalink:  leads_management_using_rails_with_js
 ---
 
@@ -53,7 +53,7 @@ posting.done(function(data) {
       });
 	```
 			
-			
+
 Here's the [link](https://github.com/ktamoguis/leadsmgt_js) to the project.
 			
 
