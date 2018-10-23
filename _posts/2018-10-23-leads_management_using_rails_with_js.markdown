@@ -31,6 +31,14 @@ The project took almost a week to complete. The first two features were done in 
 
 For the first problem - not automatically adding the new owner, I overlooked that when serializing the owner, the serialized data came with id and name. I was appending the data without specifying which part of data I wanted to append. In this case, data.name. Also since the new owner would be appended to an ordered list (ol), I forgot I had to specify `<li>` when appending
 
+```
+posting.done(function(data) {
+        $("#owner_name").val("")
+        var $ol = $("div.owners ol")
+        //$ol.append(data) - code before
+        $ol.append(`<li>` + data.name  + `</li>`) // code after
+```
+
 For the part where the Create Owner is not re-enabled after pressing, I just had to manually re-enable it using some code.
 
 ```
